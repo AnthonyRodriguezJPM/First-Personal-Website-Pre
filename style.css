@@ -1,25 +1,48 @@
 html, body {
 height: 100%;
 min-height: 100%;
-}
-
-#base {
- text-align: center;
-
-}
-
-p#p1 {
-  display: block;
-  text-align: justify:
-  max-width: 100px
-  background-color: red:
 
 }
 
 body {
-  background: grey;
+  background-image: url("./My_dogs/paws_bones.png");
+  background-size: cover;
 
-  }
+}
+
+
+/*h1, h2 {
+  background-color: black;
+}*/
+
+#base {
+ text-align: center
+
+}
+
+
+#base h1, h2 {
+  color: magenta ;
+  opacity: .80;
+  background-color: black;
+  
+
+}
+
+body #base p#p1 {
+  max-width: 50%;
+  color: magenta; 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .80;
+  background-color: black;
+  
+  
+ 
+
+}
+
 
 #myzoepic {
    
@@ -29,3 +52,5 @@ body {
   width: 50%;
 
   }
+
+
